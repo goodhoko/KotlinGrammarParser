@@ -1,0 +1,24 @@
+{
+  "name": "all_possible_kotlin_literals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tsc && node out/test",
+    "run": "tsc && node out/main"
+  },
+  "author": "goodhoko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/baretest": "^2.0.0",
+    "@types/node": "^13.13.1",
+    "baretest": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.17",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
